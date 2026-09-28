@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="IPL_Franchises.API/IPL_Franchises.API.csproj" />
+  <Project Path="IPL_Franchises.Application/IPL_Franchises.Application.csproj" />
+  <Project Path="IPL_Franchises.Domain/IPL_Franchises.Domain.csproj" />
+  <Project Path="IPL_Franchises.Infrastructure/IPL_Franchises.Infrastructure.csproj" />
+  <Project Path="IPL_Franchises.Tests/IPL_Franchises.Tests.csproj" />
+</Solution>

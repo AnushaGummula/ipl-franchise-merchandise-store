@@ -1,0 +1,147 @@
+#root {
+  min-height: 100vh;
+}
+
+.app {
+  min-height: 100vh;
+  background: #f7f7f5;
+  color: #151515;
+}
+
+.header {
+  min-height: 72px;
+  padding: 0 7%;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: -0.5px;
+}
+
+.header span {
+  display: block;
+  margin-top: 2px;
+  color: #777;
+  font-size: 12px;
+}
+
+.cart-button {
+  border: 1px solid #222;
+  background: transparent;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.hero {
+  min-height: 430px;
+  padding: 80px 7%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background:
+    radial-gradient(circle at 85% 20%, #263b7a 0, transparent 30%),
+    linear-gradient(120deg, #071329, #111c3a);
+
+  color: white;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #e6a817;
+}
+
+.hero h2 {
+  margin: 0;
+  max-width: 700px;
+  font-size: clamp(46px, 6vw, 78px);
+  line-height: 0.98;
+  letter-spacing: -3px;
+}
+
+.hero-description {
+  max-width: 520px;
+  margin: 24px 0;
+  color: #c9cfda;
+  line-height: 1.6;
+}
+
+.primary-button {
+  width: fit-content;
+  border: 0;
+  border-radius: 5px;
+  padding: 13px 24px;
+
+  background: #e6a817;
+  color: #151515;
+
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.store-section {
+  padding: 60px 7%;
+}
+
+.section-heading {
+  margin-bottom: 25px;
+}
+
+.section-heading h2 {
+  margin: 0;
+  font-size: 30px;
+}
+
+.franchise-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.franchise-button {
+  min-width: 72px;
+  padding: 15px 20px;
+
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+
+  background: white;
+  color: #222;
+
+  font-weight: 700;
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.franchise-button:hover {
+  border-color: #152752;
+  background: #152752;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.empty-products {
+  padding: 45px;
+  border: 1px dashed #ccc;
+  border-radius: 10px;
+
+  background: white;
+  color: #777;
+
+  text-align: center;
+}
